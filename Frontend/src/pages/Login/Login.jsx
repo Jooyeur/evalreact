@@ -18,6 +18,9 @@ export default function Login() {
             <input type="password" id="password" className="mb-10" />
           </div>
           <button className="btn btn-primary mt-20">Submit</button>
+          <a href="/" className={`${styles.mdp} m-20`}>
+            Mot de passe oublié
+          </a>
         </form>
       </div>
     </div>
